@@ -1,0 +1,328 @@
+@charset "UTF-8";
+h1 {
+  font-family: Roboto;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 40px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 20px 40px;
+}
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: none;
+}
+
+h4 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h5 {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 40px 60px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 68px 40px 0px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #BBA7B2;
+}
+
+.listb:hover {
+  color: #ffffff;
+}
+
+.ellen1 {
+  width: 300px;
+  border: 60px solid #BBA7B2;
+}
+
+.icon-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 215px;
+}
+
+.icon-button:hover {
+  color: #BBA7B2;
+}
+
+.icon-button span {
+  margin-bottom: 5px;
+}
+
+.rectangle {
+  background-color: #BBA7B2;
+  height: 15px; /* Anpassa höjden efter ditt behov */
+  width: 100%; /* Täcker hela bredden av skärmen */
+  margin-bottom: 40px;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 100% s;
+}
+
+.heading {
+  line-height: 0%;
+  padding-left: 60px;
+  padding-top: 100px;
+}
+
+.card {
+  padding: 30px 30px;
+  margin: 100px 100px;
+}
+
+.button-read {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #BBA7B2;
+  padding: 15px 30px;
+  text-align: center;
+  border: none;
+}
+
+.button-read:hover {
+  background-color: #B29CA8;
+}
+
+.fa fa-chevron-right {
+  vertical-align: middle;
+  size: 15px;
+}
+
+.card1 {
+  border: none;
+  padding: 0px 60px 60px 60px;
+}
+
+.ellen2 {
+  width: 579px;
+  height: auto;
+  padding-left: 60px;
+}
+
+.footer {
+  background-color: #B29CA8;
+  margin-top: 60px;
+}
+
+.h5 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.ica {
+  height: auto;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.card2 {
+  border: none;
+  padding: 100px 60px;
+}
+
+.text {
+  width: 610px;
+  padding-left: 60px;
+}
+
+.pic1 {
+  padding: 60px;
+  max-width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.textlist {
+  padding-left: 60px;
+  line-height: 10%;
+}
+
+.logotroll {
+  padding-bottom: 60px;
+}
+
+.text2 {
+  max-width: 500px;
+  padding-left: 60px;
+}
+
+.container1 {
+  padding-left: 60px;
+  margin: none;
+  align-content: space-evenly;
+}
+
+.row {
+  align-content: space-between 60px;
+  margin-left: none;
+}
+
+.heuristiker.bild {
+  height: 450px;
+  width: auto;
+}
+
+.heuristiker.bild2 {
+  height: 450px;
+  width: auto;
+  margin-bottom: 40px;
+}
+
+.connectcont {
+  display: grid;
+  grid-template-rows: 100px 300px 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+}
+
+.ellen3 {
+  width: 300px;
+  height: auto;
+  grid-column: 3;
+  grid-row: span 3;
+  padding-top: 50px;
+}
+
+.card3 {
+  display: flex;
+  align-items: center;
+  background-color: #B29CA8;
+  grid-column: span 2;
+  grid-row: 2;
+  align-content: center;
+}
+
+.card-body {
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+.text3 {
+  max-width: 500px;
+  padding-top: 40px;
+}
+
+.card-t {
+  max-width: 300px;
+}
+
+.move {
+  width: 300px;
+  height: auto;
+  border-radius: 1%;
+}
+
+.textresult {
+  width: 300px;
+  padding-right: none;
+  margin-right: none;
+}
+
+.displayrow {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.fontstyle {
+  line-height: 10%;
+}
+
+.displayrow1 {
+  display: flex;
+}
+
+.text-dark2 {
+  text-decoration: none;
+}
+
+.smatext {
+  padding-right: 2%;
+}
+
+.smatext2 {
+  width: 500px;
+  padding-right: 100px;
+}
+
+.smatext3 {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.smapic {
+  padding-right: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
